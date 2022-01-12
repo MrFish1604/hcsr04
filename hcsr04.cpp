@@ -23,7 +23,7 @@ float HCSR04::getToF()
 
 float HCSR04::getDist()
 {
-    return getToF()/59f;
+    return getToF()/59.0;
 }
 
 float HCSR04::getDist2(float slope, float offset)
