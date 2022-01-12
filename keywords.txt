@@ -1,0 +1,6 @@
+HCSR04  KEYWORD1
+
+trig    KEYWORD2
+getToF  KEYWORD2
+getDist KEYWORD2
+getDist2    KEYWORD2
