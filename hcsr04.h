@@ -10,6 +10,7 @@ class HCSR04
 {
 public:
     HCSR04(const uint8_t trig, const uint8_t echo);
+    void begin();
     void trig();
     float getToF();
     float getDist();

@@ -2,6 +2,11 @@
 
 HCSR04::HCSR04(const uint8_t trig, const uint8_t echo): _echo(echo), _trig(trig)
 {
+
+}
+
+void HCSR04::begin()
+{
     pinMode(_echo, INPUT);
     pinMode(_trig, OUTPUT);
 }
