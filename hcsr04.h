@@ -3,8 +3,8 @@
 
 #include <Arduino.h>
 
-#define SLOPE 0.017     // From experiment
-#define OFFSET -0.163
+#define SLOPE 0.017     // From experimentation
+#define OFFSET -0.163   // Do your own
 
 class HCSR04
 {
